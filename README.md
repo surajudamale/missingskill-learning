@@ -1,4 +1,4 @@
 # Table of contents
 
-- [Linux](#linux)
+- [Linux](#linux.md)
   
