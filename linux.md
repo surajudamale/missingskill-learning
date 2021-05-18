@@ -42,8 +42,7 @@
 - **ping** - To check the internet connection.
 - **which** - Display the command path.
 
-- **echo**  
-   - Display the terminal whatever is passed.
+- **echo** - Display the terminal whatever is passed.
 
 - **ps** - Display all running processes.
 
