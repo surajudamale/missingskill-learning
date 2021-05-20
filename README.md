@@ -19,4 +19,4 @@
   - [HTTP](/web-component.md#http)
   - [Cloud providers](/web-component.md#cloud-providers)
   - [Web Servers](/web-component.md#web-servers)
-  - [Licenence](/web-component.md#licence-in-software-development)
+  - [Licenence](/web-component.md#licenence-in-software-development)
