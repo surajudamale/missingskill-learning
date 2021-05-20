@@ -48,19 +48,32 @@
 - Open an account ongitlab.
 - I used linux system. So i dont want to donload git bash which is basically used to operate git on windows.
 
-**Create your first repositry, then add and commit files**
+**Git Commands**
 
 - At the command line, first verify that you have GIT installed.
 - On all operating System
   ```
   git --version
   ```
-- After installing Git, configure your username and emailaddress.
+- The command that sets the auther name and the email address with yor commits.
+
+  ```
+  git config --global user.name "suraj udamale"
+  git config --global user.email "surajudamale08@gmail.com"
+  ```
+
 - To create an empty Repository type this command.
+
   ```
   git init
   ```
-- This will create a hidden folder, **_.git_** which is basically needed for Git to work.
+
+  - This will create a hidden folder, **_.git_** which is basically needed for Git to work.
+
+- The command that has been used to obtain a repository from Git Repository.
+  ```
+  git clone <HTTPS URL>
+  ```
 - Next step is , check what files or folders you want to add to yor Git repository.
   ```
   git status
@@ -74,22 +87,34 @@
   git add .
   ```
 - This will 'stage' all your files to be added to Git, preparing them to be commited in your first commit.
+- The commit will record the file permanently in the version history.
+
   ```
   git commit -m "First commit"
   ```
+
   this will commit all the files that have been added, along with the commit message.
-- First time when commit it shows some message which user is using Git. So wants to congigure name and email.
+
+- Then we can see the list of version history fro the current branch, what is gets coomited on which brach
+- In these there is auther name and email with date and time gets specified with the clatest or recorded commits
+
   ```
-  git config user.email "someuser@mail.com"
-  git config user.name <username>
+  git log
   ```
+
 - Final Step is now push these file into the Git Repository.
+- These commands sends the commited changes to the master to the remote repository.
+
   ```
   git push origin master
   ```
+
   It will ask about username and password for complete the process.
 
----
+- The command that has been used to fetch and merge the changes on the remote repository to local directory.
+  ```
+  git pull <Repo URL>
+  ```
 
 #### ssh-Keygen
 
@@ -100,8 +125,6 @@
   cat id_rsa.pub
   ```
   Copy that bulky code into the Git ssh key....
-
----
 
 ### Create Branches on GitHub
 

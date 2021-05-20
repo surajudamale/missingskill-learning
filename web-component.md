@@ -1,6 +1,11 @@
 # Basic Building Blocks of Web Components
 
-### IP
+### IP (Internet Protocol)
+
+**Defination** : IP (Internet Protocol) address is a numerical address of your device network connection. Basically it is the identification of your system.
+
+**How IP Works**
+Let make it simple, You can compare IP (Internet protocol) to postal service in real world. A postal code is an adentifier for mail routing thats how the IP (IInternet Protocol) is like postal code for internet traffic routing. Every device have an it's IP Address.
 
 - Internet Protocol Addressing.
 - IP is a digital address to given server.
@@ -16,17 +21,15 @@
   - Class A
   - Class B
   - Class C
-  - Class D - reserved for multitasking.
+  - Class D : reserved for multitasking.
+  - class E : reserved for RND
 - There is two types of version
-
   - Ipv4 :
     - size : 4 bytes => 4 \* 8 = 32 bits.
   - Ipv6 :
     - size : 128 bits
 
-- IP is basically your entry point it is just like gate to entry (into internet) point of your System.
-
-![IP Adress specification](./images/ip-specification.jpg
+![IP Adress specification](/home/s/SurajRepo/missingskill-learning/images/ip-specification.jpg)
 
 ### Port
 
