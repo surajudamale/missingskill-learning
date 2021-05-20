@@ -21,3 +21,6 @@
   - [Cloud providers](/web-component.md#cloud-providers)
   - [Web Servers](/web-component.md#web-servers)
   - [Licenence](/web-component.md#licenence-in-software-development)
+- [JavaScript](./javascript.md)
+    - [Beginning of JavaScript](/javascript.md#beginning-of-javascript)
+    - [ECMA Script](/javascript.md#ecma-script)
