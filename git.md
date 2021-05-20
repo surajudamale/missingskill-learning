@@ -45,10 +45,10 @@
 #### Steps of using GIT
 
 - Git is a distributed version control system.
-- Open an account ongitlab.
-- I used linux system. So i dont want to donload git bash which is basically used to operate git on windows.
+- Open an account on gitlab.
+- I used linux system. So i don't want to download git bash which is basically used to operate git on windows.
 
-**Git Commands**
+#### Git Commands
 
 - At the command line, first verify that you have GIT installed.
 - On all operating System

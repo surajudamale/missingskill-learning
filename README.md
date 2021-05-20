@@ -9,6 +9,7 @@
   - [Introduction to GIT](/git.md#introduction-to-git)
   - [Why GIT ](/git.md#why-git-?)
   - [Version Control System](/git.md#version-control-system)
+  - [Git Commands](/git.md#git-commands)
   - [ssh-Keygen](/git.md#ssh-keygen)
   - [Create Branches on GitHub](/git.md#create-branches-on-github)
 - [Web Components](./web-component.md)
