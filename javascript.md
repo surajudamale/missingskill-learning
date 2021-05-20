@@ -1,6 +1,6 @@
 # JavaScript
 
-#### Beginning of JavaScript
+### Beginning of JavaScript
 
 - JavaCript is created by **Brendan Eich** in 1995 during his time at Netscape Communication.
 - JavaScript is most Loving as well as most hated language for companies.
@@ -9,7 +9,7 @@
 - JavaScript is high-level often just-in-time comppiled language.
 - JavaScript is one of the core technologies of the WWW (World Wibe Web).
 
-#### ECMA Script
+### ECMA Script
 
 **Introduction**
 
@@ -43,14 +43,26 @@
 
 - **ES5** is a Dynamic type, which gets Hoisted.
 - In **ES5** we can use var keyword with ame name it wil just overwrite and allows it to print.
-  `js var user = "suraj"; //Declaration and assignment console.log(user); //prints : suraj var user = "udamale"; console.log(user); //prints : udamale `
+
+  ````js
+  var user = "suraj"; //Declaration and assignment
+  console.log(user); //prints : suraj
+  var user = "udamale";
+  console.log(user); //prints : udamale ```
   **let keyword**
+
+  ````
+
+**let keyword**
+
 - In **ES6** when we use **let** keyword with same name it throws error Identifier : 'user' has been already declared".
+
   ```js
   let user = 'Suraj';
   let user = 'Udamale';
   console.log(user); //thows error - identifier : 'user' has already declared
   ```
+
 - **let** keyword we declared it only once but assigned it multiple times.
 - **let** has only block scope.
 - If we use **var** keyword it becomes global variable and gets hoisted.
@@ -62,6 +74,7 @@
 - In JavaScript const value does not overwrite.
 - We can't change the location of const varibale.
 - but we can change and add new values in it.
+
   ```js
   const addname = {
       name = "suraj";
