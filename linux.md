@@ -1,6 +1,6 @@
 # **LINUX**
 
-#### Basic Information about Linux Environment
+### Basic Information about Linux Environment
 
 - Linux is a free, open-source operating system. All of Digital Ocean’s offered operating systems are Linux distributions.
 - Linux has been under active development since 1991. It has evolved to be versatile and is used all over the world, from web servers to cellphones.
@@ -10,7 +10,7 @@
 
 ---
 
-#### The Terminal
+### The Terminal
 
 - For most of the time you access a cloud server, you’ll be doing it through a terminal shell. The shell allows you to execute commands on the droplet.
 - All administrative tasks can be accomplished through the terminal. This includes file manipulation, package - installation, and user management.
@@ -18,7 +18,7 @@
 
 ---
 
-#### Navigation (Linux Command)
+### Navigation (Linux Command)
 
 | Commands                      | Description                                                                                                                    |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |

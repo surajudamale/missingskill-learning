@@ -116,7 +116,7 @@
   git pull <Repo URL>
   ```
 
-#### ssh-Keygen
+### ssh-Keygen
 
 - To make our usability smooth we uses a kwy for **_push/pull_** code it doesn't ask for username and password again and again. We create a key in Local Repository.
   ```
