@@ -1,6 +1,6 @@
 # **GIT**
 
-### Introduction to GIT
+#### Introduction to GIT
 
 - Git is a free and open source distributed version control system designed to handle small as well as large projects with speed and efficiency.
 - Git was created by Linus Torvalds in 2005.
@@ -12,7 +12,7 @@
 
 ---
 
-### Why GIT ?
+#### Why GIT ?
 
 - In Gits collections of version control files lept together in a repository, The repository also contains files, History, config managed by GIT
 - There are three states of Gits
@@ -24,7 +24,7 @@
 
 ---
 
-### Version Control System
+#### Version Control System
 
 ##### Version Control system fall into two catagories.
 
@@ -42,7 +42,7 @@
 
 ---
 
-### Steps of using GIT
+#### Steps of using GIT
 
 - Git is a distributed version control system.
 - Open an account ongitlab.
@@ -116,7 +116,7 @@
   git pull <Repo URL>
   ```
 
-### ssh-Keygen
+#### ssh-Keygen
 
 - To make our usability smooth we uses a kwy for **_push/pull_** code it doesn't ask for username and password again and again. We create a key in Local Repository.
   ```
@@ -126,7 +126,7 @@
   ```
   Copy that bulky code into the Git ssh key....
 
-### Create Branches on GitHub
+#### Create Branches on GitHub
 
 - Creating and checking out new branches
   - To create new branch while staying on the current branch use :

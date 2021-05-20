@@ -1,6 +1,6 @@
 # **JavaScript**
 
-### Beginning of JavaScript
+#### Beginning of JavaScript
 - JavaCript is created by **Brendan Eich** in 1995 during his time at Netscape Communication.
 - JavaScript is most Loving as well as most hated language for companies.
 - JavaScipt orginally named as **Mocha**, later renamed to **LiveScript** and then **JavaScript**.
@@ -8,7 +8,7 @@
 - JavaScript is high-level often just-in-time comppiled language.
 - JavaScript is one of the core technologies of the WWW (World Wibe Web).
 
-### ECMA Script
+#### ECMA Script
 **Introduction**
 - ECMA Script is trademarked scripting language specification that is defined by ECMA International.
 - **ES5** is an abbrivation of **ECMA Script 5** and also known as **ECMA Script 2009**.
