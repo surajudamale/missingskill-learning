@@ -1,6 +1,6 @@
-![Git-logo](./images/git-logo.png)
+<img src="./images/git-logo.png" width="350">
 
-# **GIT**
+# <span style = "color:blue"> **GIT** </span>
 
 #### Introduction to GIT
 

@@ -1,6 +1,6 @@
-![Linux-logo](/images/linux-logo2.png)
+<img src="./images/linux-logo2.png" width="350">
 
-# <span style = "color:red"> LINUX </span>
+# <span style = "color:blue"> **LINUX** </span>
 
 #### Basic Information about Linux Environment
 
