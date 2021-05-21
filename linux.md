@@ -1,4 +1,4 @@
-![Linux-logo](./images/linux-logo2.jpeg)
+![Linux-logo](/images/linux-logo2.png)
 
 # <span style = "color:red"> LINUX </span>
 
