@@ -1,3 +1,5 @@
+![Linux-logo](./images/linux-logo.jpeg)
+
 # <span style = "color:red"> LINUX </span>
 
 #### Basic Information about Linux Environment
