@@ -1,3 +1,5 @@
+![Git-logo](./images/git-logo.png)
+
 # **GIT**
 
 #### Introduction to GIT
