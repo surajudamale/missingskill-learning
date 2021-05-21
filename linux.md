@@ -1,4 +1,4 @@
-# **<span style = "color : 041980"> LINUX </span>**
+# <span style = "color : blue"> **LINUX** </span>
 
 #### Basic Information about Linux Environment
 
