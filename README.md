@@ -1,3 +1,10 @@
+# THE FRESHER’S MISSING-SKILL
+### **Date**  : 22-05-2021
+### **twitter** : #missingskill
+
+---
+
+
 # Table of contents
 
 - [Linux](./linux.md)
@@ -24,3 +31,7 @@
 - [JavaScript](./javascript.md)
   - [Beginning of JavaScript](/javascript.md#beginning-of-javascript)
   - [ECMA Script](/javascript.md#ecma-script)
+  - [JavaScript Variables](/javascript.md#javascript-variables)
+  - [Identifiers](/javascript.md#identifiers)
+  - [Classification of Variable Data Types](/javascript.md#classification-of-variable-data-types)
+  - [Copy by Value and Copy by Reference](/javascript.md#copy-by-value-and-copy-by-reference)
