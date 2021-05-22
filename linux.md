@@ -1,5 +1,3 @@
-<img src="./images/linux-logo2.png" width="350">
-
 # <span style = "color:blue"> **LINUX** </span>
 
 #### Basic Information about Linux Environment

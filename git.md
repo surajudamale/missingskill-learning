@@ -1,5 +1,3 @@
-<img src="./images/git-logo.png" width="350">
-
 # <span style = "color:blue"> **GIT** </span>
 
 #### Introduction to GIT
