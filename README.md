@@ -1,6 +1,6 @@
 # THE FRESHER’S MISSING-SKILL
 ### **Date**  : 22-05-2021
-### **twitter** : #missingskill
+### **twitter** : [#missingskill](https://twitter.com/missingskill)
 
 ---
 
