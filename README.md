@@ -1,5 +1,5 @@
 # MISSING-SKILL
-### **twitter** : [#missingskill](https://twitter.com/missingskill)
+### **twitter** : #missingskill
 ---
 
 ## Table of contents
