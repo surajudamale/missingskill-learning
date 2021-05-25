@@ -1,9 +1,6 @@
 # MISSING-SKILL
-### **Date**  : 26-05-2021
 ### **twitter** : [#missingskill](https://twitter.com/missingskill)
-
 ---
-
 
 ## Table of contents
 
