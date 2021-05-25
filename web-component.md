@@ -5,17 +5,15 @@
 **Defination** : IP (Internet Protocol) address is a numerical address of your device network connection. Basically it is the identification of your system.
 
 **How IP Works**
-Let make it simple, You can compare IP (Internet protocol) to postal service in real world. A postal code is an adentifier for mail routing thats how the IP (IInternet Protocol) is like postal code for internet traffic routing. Every device have an it's IP Address.
-
 - Internet Protocol Addressing.
 - IP is a digital address to given server.
 - IP address is unique to a perticular system.
 - Every system which are connected to internet have a unique address.
 - There are two types of IP
-  - Private IP
+  - **Private IP**
     - It is local IP Address
     - It is required to connect to the local network (LAN)
-  - Public IP
+  - **Public IP**
     - It is required to connect to the internet.
 - There is classification of IP in
   - Class A

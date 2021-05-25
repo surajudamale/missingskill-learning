@@ -1,5 +1,5 @@
 # THE FRESHER’S MISSING-SKILL
-### **Date**  : 22-05-2021
+### **Date**  : 25-05-2021
 ### **twitter** : [#missingskill](https://twitter.com/missingskill)
 
 ---
@@ -41,12 +41,12 @@
       - [Boolean Check in JavaScript](/javascript.md#boolean-check-in-javascript)
       - [Hoisting in JavaScript](/javascript.md#hoisting-in-javascript)
       - [Local Scope and Global scope in JavaScript](/javascript.md#local-scope-and-global-scope-in-javascript)
-  - [JacaScript Function](/javascript.md#jacascript-function)
+  - [JavaScript Function](/javascript.md#javascript-function)
       - [First class Citizen in JavaScript](/javascript.md#first-class-citizen-in-javascript)
       - [Function Hoisting](/javascript.md#function-hoisting)
       - [Function Declaration and Function Exrpession](/javascript.md#function-declaration-and-function-exrpession)
       - [Higher Order Function](/javascript.md#higher-order-function)
-      - [IIFE](/javascript.md#iife-immedialtelly-invoked-function-expression)
+      - [IIFE](/javascript.md#iife-immediately-invoked-function-expression)
       - [Inline Function](/javascript.md#inline-function)
   - [Object in JavaScript](/javascript.md#object-in-javascript)
   - [Prototype in JavaScript](/javascript.md#prototype-in-javascript)

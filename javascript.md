@@ -10,10 +10,9 @@
 
 ### ECMA Script
 **Introduction**
-- ECMA Script is trademarked scripting language specification that is defined by ECMA International.
 - **ES5** is an abbrivation of **ECMA Script 5** and also known as **ECMA Script 2009**.
 - The sixth edition is **ES6** known as **ECMA Script 6** also known as **ECMA Script 2015**.
-- ES6 is a major enhancement in JavaScript that allows us to write programs for complex application.
+- **ES6** is a major enhancement in JavaScript that allows us to write programs for complex application.
 
 **What is ES5**
 
@@ -228,7 +227,7 @@
         var a = "100"; //typeof a will be string.
         var a = +"100"; // typeof a will be number.
         ```
-- **SomeConcatination Example which are due to bug in (+) addition operator.**
+- **Some Concatination Example which are due to bug in (+) addition operator.**
     
     1. number + null    =   number
         ```js
@@ -404,7 +403,7 @@
     console.log(one);   // print : present  // varibale one of global scope
     ```
     
-### JacaScript Function
+### JavaScript Function
 - In JavaScript Function is used to write the code within a block,  basically designed to perform a perticular task.
 - In JavaScript Function is invoked when it gets called otherwise not gets called.
 - Function has a Functional scope.
@@ -516,8 +515,8 @@
     fnOne(100); // function call with 1 parameter
     ```
 
-#### IIFE (Immedialtelly Invoked Function Expression)
-- **IIFE** stands for **Immedialtelly Invoked Function Expression** also called as self Excecuting Function.
+#### IIFE (Immediately Invoked Function Expression)
+- **IIFE** stands for **Immediately Invoked Function Expression** also called as self Excecuting Function.
 - IIFE only called once.
 - Function is called right after it is defined.
 - IIFE can be called as soon as it is defined. 
