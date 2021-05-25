@@ -5,7 +5,7 @@
 ---
 
 
-# Table of contents
+## Table of contents
 
 - [Linux](./linux.md)
   - [Basic Information about linux environment](/linux.md#basic-information-about-linux-environment)
@@ -35,3 +35,20 @@
   - [Identifiers](/javascript.md#identifiers)
   - [Classification of Variable Data Types](/javascript.md#classification-of-variable-data-types)
   - [Copy by Value and Copy by Reference](/javascript.md#copy-by-value-and-copy-by-reference)
+  - [Operators in JavaScript](/javascript.md#operators-in-javascript)
+      - [== and === Difference](/javascript.md#-and--difference)
+      - [Tech Debt in JavaScript](/javascript.md#tech-debt-in-javascript)
+      - [Boolean Check in JavaScript](/javascript.md#boolean-check-in-javascript)
+      - [Hoisting in JavaScript](/javascript.md#hoisting-in-javascript)
+      - [Local Scope and Global scope in JavaScript](/javascript.md#local-scope-and-global-scope-in-javascript)
+  - [JacaScript Function](/javascript.md#jacascript-function)
+      - [First class Citizen in JavaScript](/javascript.md#first-class-citizen-in-javascript)
+      - [Function Hoisting](/javascript.md#function-hoisting)
+      - [Function Declaration and Function Exrpession](/javascript.md#function-declaration-and-function-exrpession)
+      - [Higher Order Function](/javascript.md#higher-order-function)
+      - [IIFE](/javascript.md#iife-immedialtelly-invoked-function-expression)
+      - [Inline Function](/javascript.md#inline-function)
+  - [Object in JavaScript](/javascript.md#object-in-javascript)
+  - [Prototype in JavaScript](/javascript.md#prototype-in-javascript)
+  - [Object Lookup](/javascript.md#object-lookup)
+  - [JSON](/javascript.md#json)

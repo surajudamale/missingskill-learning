@@ -291,7 +291,7 @@
         output : "1,2,31,2,3"   //string
         ```
 
-##### == and === Difference
+#### == and === Difference
 - **==** is loose comparison
     - **==** operator compaired number with a string with numerical literals it allows and return true flag.
         ```js
@@ -304,12 +304,12 @@
         100 === "100"   //false, because both operands are not same type
         0 == false  // //false, because both operands are not same type
         ```
-##### Tech Debt in JavaScript
+#### Tech Debt in JavaScript
 - Tech Debt in Javascript is a bug which never gets salved. There are various type of tech debts.
     - Ex. **null, +, ==**
     
 
-##### Boolean Check in JavaScript
+#### Boolean Check in JavaScript
 - In JavaScript there are some things like **truthy value** and **falsy value**.
 - primitives are **truthy values** as well as falsy values
 - Non-primitives are always **truthy values**.
@@ -347,7 +347,7 @@
     => false     // Falsy
     ```
 
-##### Hoisting in JavaScript
+#### Hoisting in JavaScript
 - In Javascript It doesn't matter in functional scope where you define the variable it always get hoisted on top.
 - In these variable declaration gets Hoisted, assignment doesen't get hoisted.
 - Variable get hoisted at the functional scope.
@@ -386,7 +386,7 @@
     => Prints : Uncaught ReferenceError: b is not defined
     ```
     
-##### Local Scope and Global scope in JavaScript
+#### Local Scope and Global scope in JavaScript
 - In JavaScript there has two scope.
     1. Global Scope
     2. Local Scope
@@ -418,7 +418,7 @@
     console.log(result);    // print : 40
     ```
     
-##### First class Citizen in JavaScript
+#### First class Citizen in JavaScript
 - In Javascript Function are called as **First class citizen** it means that we can do anything with function.
 - Function can be perform in any way.
 - We can assign function to a variable.
@@ -440,7 +440,7 @@
     task(print);
     ```
 
-##### Function Hoisting
+#### Function Hoisting
 - In this case Function assignent doesn't get hoisted only function declaration get hoisted.
     ```js
     user("present");
@@ -457,7 +457,7 @@
     user("present");
     ```
     
-##### Function Declaration and Function Exrpession
+#### Function Declaration and Function Exrpession
 - **Function Declaration(Normal Function)**
     - A Function Declaration defines a named function variable.
     - Function declaration must be begin with "Function".
@@ -490,7 +490,7 @@
 - var keyword gets hoisted, let and const not get hoisted.
 
 
-##### Higher Order Function
+#### Higher Order Function
 - In JavaScript Function is a **First Class Citizen** and function is also an **Object**.
 - In JS function can be assigned to a variable or passed as a variable.
 - **Higher Order Function** is a function that recieves a function as a parameter and returns the same or another function.
@@ -516,7 +516,7 @@
     fnOne(100); // function call with 1 parameter
     ```
 
-### IIFE (Immedialtelly Invoked Function Expression)
+#### IIFE (Immedialtelly Invoked Function Expression)
 - **IIFE** stands for **Immedialtelly Invoked Function Expression** also called as self Excecuting Function.
 - IIFE only called once.
 - Function is called right after it is defined.
@@ -553,7 +553,7 @@
     })
     ```
     
-##### Inline Function
+#### Inline Function
 - Function which is defined within a function and accessible ouside the function.
 - Inline function is also a higher order function.
 - In JavaScript inline function is Anonymous function which is assign to a variable.
@@ -580,7 +580,7 @@
 - **final** is pointing to **inline function**.
 - so value will be 59.
 
-##### Arrow Function in ES6
+#### Arrow Function in ES6
 - Arrow function is introduced in ES6.
 - It is basically salve the problems which is related to "this" keyword.
 - Arrow Function is used for shorter the function.
@@ -599,14 +599,14 @@
     console.log("item", value);
     ```
 ### Object in JavaScript
-##### Introduction
+#### Introduction
 - In JS Everything is an Object so function is also an Object.
 - Object is also hold a function.
 - In object when we write function it is always expression(key : value pair) key should be always string and value can be anything.
 - To define object inside function insteed of  (**=**) operator (**:**) colon will get used.
 - Object can hold function bcus it is First class citizen it means it can take function and return a function.
 
-##### How function is Object
+#### How function is Object
 - We know all about Object and how object related to everything in JavaScript, but we understand that how object is also hold a function.
 - When you write a function inside object you use a Expression(Key : Value) Pair just say
     - **Key** : is someone (**Key** should be alwyas be **string**)
@@ -622,7 +622,7 @@
 - In initialized wirh **new** keyword. Just like **new Object() or {}**.
 - **Properties** of prototype object can be refered using **this** keyword.
     
-##### Build in prototype in JavaScript.
+#### Build in prototype in JavaScript.
 - **Object Prototype**
     - When dot (**.**) is used in JavaScript engine converts it into Object prototype which make methods on which key can operate   
 - **Arrow Prototype**
