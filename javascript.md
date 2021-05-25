@@ -2,15 +2,15 @@
 
 ### Beginning of JavaScript
 - JavaCript is created by **Brendan Eich** in 1995 during his time at Netscape Communication.
-- JavaScript is most Loving as well as most hated language for companies.
+- JavaScript is most Loving language for companies.
 - JavaScipt orginally named as **Mocha**, later renamed to **LiveScript** and then **JavaScript**.
-- The language was thensubmitted for standardization to the **ECMA International Organization**.
-- JavaScript is high-level often just-in-time comppiled language.
+- The language was then submitted for standardization to the **ECMA International Organization**.
+- JavaScript is high-level often just-in-time compiled language.
 - JavaScript is one of the core technologies of the WWW (World Wibe Web).
 
 ### ECMA Script
 **Introduction**
-- **ES5** is an abbrivation of **ECMA Script 5** and also known as **ECMA Script 2009**.
+- **ES5** is an abrivation of **ECMA Script 5** and also known as **ECMA Script 2009**.
 - The sixth edition is **ES6** known as **ECMA Script 6** also known as **ECMA Script 2015**.
 - **ES6** is a major enhancement in JavaScript that allows us to write programs for complex application.
 
@@ -36,7 +36,7 @@
 
 **var keyword**
 - **ES5** is a Dynamic type, which gets Hoisted.
-- In **ES5** we can use var keyword with ame name it wil just overwrite and allows it to print.
+- In **ES5** we can use var keyword with same name it will just overwrite and allows it to print.
     ```js
     var user = "suraj";     //Declaration and assignment
     console.log(user);      //prints : suraj
@@ -44,7 +44,7 @@
     console.log(user);      //prints : udamale
     ```
 **let keyword**
-- In **ES6** when we use **let** keyword with same name it throws error Identifier : 'user' has been already declared".
+- In **ES6** when we use **let** keyword with same name it throws **error Identifier : 'user' has been already declared"**.
     ```js
     let user = "Suraj";
     let user = "Udamale";
@@ -56,10 +56,10 @@
 - If we use **let** keyword it becomes local variable and not get hoisted.
 
 **const keyword**
-- in **const** keyword if it gets decalaerd and assign it do only once. **const** did not allow you to assign variable again.
-- In JavaScript const value does not overwrite.
+- in **const** keyword if it gets declared and assign it do only once. **const** did not allow you to assign variable again.
+- In JavaScript **const** value does not overwrite.
 - We can't change the location of const varibale.
-- but we can change and add new values in it.
+- But we can change and add new values in it.
     ```js
     const addname = {
         name = "suraj";
@@ -87,8 +87,8 @@
 
 ### Identifiers
 - All JavaScript variables must be identified with unique names.
-- These uniwue names are called identifiers.
-- Identifiers can be short names(like x and y) or more decriptive names (age,name.total etc..).
+- These unique names are called identifiers.
+- Identifiers can be short names(like x and y) or more decriptive names like (age, name, total etc..).
 
 ### Classification of Variable Data Types
 - JavaScript provides different data type to hold different data types of values.
@@ -119,7 +119,7 @@
     ***4. Undefined**
     - It typically means a variable has been declared but not defined yet.
         ```js
-        var user;       //this wll shoe undefined.
+        var user;       //this will show undefined.
         ```
     **5. null**
     - Null means an empty or non-existing value.
@@ -156,9 +156,6 @@
 - In JavaScript all function arguments are always passed by value. It means that javascript copiesvalue of that variables that you pass to a fucntion into local variable.
 - JavaScript has 5 data types which are passed by value : Boolean, Number, String, null and  Undefined. These are primitives.
     ```js
-    var x = 10;
-    var y = "abc";
-    
     //when we assign  these variables to other variable using (=) operator, we copy the value to the new variable. They are copied by value.
     
     var x = 10;
@@ -176,9 +173,6 @@
  - Javascript has three types that are passed by reference : Array, Function and Object. These are all techinically Object.
  - Variables that are assigned a **Non-primitive** value are given a reference to that value. That reference points to the subject point to the object location in memory. ***The variable don't actually contain the value***.
 - In Reference it copies the reference of location from one variable/Object to other.
-    - Real life Ex. 
-        - Credit/Debit card.
-        - Account money is debited or credited from an account not from your debit card is just like ***pass by reference***.
     ```js
     // Objects are created at some location in your computer memory.
         
@@ -310,10 +304,10 @@
 
 #### Boolean Check in JavaScript
 - In JavaScript there are some things like **truthy value** and **falsy value**.
-- primitives are **truthy values** as well as falsy values
+- primitives are **truthy values** as well as **falsy values**.0
 - Non-primitives are always **truthy values**.
-- Empty objects and arrays are always **truthy in JS.
-- The moment you add negation **( ! )** it becomes the boolean value and reverese the boolean result of the operands or condtion.
+- Empty objects and arrays are always **truthy** in JS.
+- The moment you add negation **( ! )** it becomes the boolean value and reverse the boolean result of the operands or condition.
     ```js
     var name = "suraj"; 
     Boolean(name)   // Truthy value
@@ -347,7 +341,7 @@
     ```
 
 #### Hoisting in JavaScript
-- In Javascript It doesn't matter in functional scope where you define the variable it always get hoisted on top.
+- In Javascript it doesn't matter in functional scope where you define the variable it always get hoisted on top.
 - In these variable declaration gets Hoisted, assignment doesen't get hoisted.
 - Variable get hoisted at the functional scope.
     ```js
@@ -396,7 +390,7 @@
     
     function foo(){
         var one = "future"; //var doo created in local scope of function "foo.
-        console.log(doo);   // print : future   // nearest variable present in local scope.
+        console.log(one);   // print : future   // nearest variable present in local scope.
     }
     foo();
     
@@ -404,11 +398,11 @@
     ```
     
 ### JavaScript Function
-- In JavaScript Function is used to write the code within a block,  basically designed to perform a perticular task.
+- In JavaScript Function is used to write the code within a block, basically designed to perform a perticular task.
 - In JavaScript Function is invoked when it gets called otherwise not gets called.
 - Function has a Functional scope.
-- Function is a container which stores all premitive as well as non pritive values.
-- According to ES5 function gets hoisted.
+- Function is a container which stores all primitive as well as non-primitive values.
+- According to ES5 function get hoisted.
     ```js
     function myFun(val1, val2){
         return val1 * val2;
@@ -423,7 +417,7 @@
 - We can assign function to a variable.
 - Function can be return from another function.
 - Function can be **key : value** pair.
-- Function can be declare as well assign to a variable.
+- Function can be declare as well as assign to a variable.
     ```js
     const print = function(value) {
         console.log("value : ", value); //function exression assign to variable.
@@ -470,7 +464,7 @@
         - In this function call is in excecution phase not returning any value. It is a function declaration.
         
 - **Function Expression(Assignment)**
-    - Main difference between **Function Declaration** and ** Function Expression** is the **Function name**,
+    - Main difference between **Function Declaration** and **Function Expression** is the **Function name**,
     - Function is basically assign to a variable.
     - It doesn't get hoisted, it means it can't be called before it is defined.
     - It is a **Anonymous Function** means **un-named** function.
@@ -483,11 +477,7 @@
         namedFun("hello", 100); // function call with 2 parameters
         ```
 
-
-
-- In JavaScript Function Declaration are rarelly used, because function is  First Class Citizen so it can do all things in JavaScript.
-- var keyword gets hoisted, let and const not get hoisted.
-
+- In JavaScript Function Declaration are rarelly used, because function is  First Class Citizen so it can do all things in JavaScript..
 
 #### Higher Order Function
 - In JavaScript Function is a **First Class Citizen** and function is also an **Object**.
@@ -672,16 +662,25 @@
 - this is the example of bracket notation. You can access properties on an **object** by specifying the name of object followed by the specific **property name in bracket**.
 
 ### JSON
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+- **JSON** stands for ***JavaScript Object Notation**.
+- It always starts with curley braces **{}**.
+- JSON always shows in a double quotation **"some data"**.
+- JSON is mosltly used for storing data, and tranfering the data.
+- JSON does not have any mothods.
+- JSON just holds the pure Data.
+- In JavaScript there is a built in method which simply converts Object into JSON Format.
+    ```js
+    const obj = {
+    name: "name",
+    location: "location",
+    likes: ["tech", 'history', 'philosophy'],
+    meta: {
+        tech: "tech......",
+        skill: ["linux", "git", "javaScript"]
+        },
+    }
+    const jsonObject = JSON.stringify(obj); // Prints JSON String
+    const obj1 = JSON.parse(jsonObject); // Prints the Object
+    console.log(jsonObject);
+    console.log(obj1);
+    ```

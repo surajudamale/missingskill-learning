@@ -27,7 +27,7 @@
   - Ipv6 :
     - size : 128 bits
 
-![IP Adress specification](/home/s/SurajRepo/missingskill-learning/images/ip-specification.jpg)
+![IP Adress specification](/images/ip-specification.jpg)
 
 ### Port
 
