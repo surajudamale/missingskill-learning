@@ -684,3 +684,5 @@
     console.log(jsonObject);
     console.log(obj1);
     ```
+#### JavaScript Faundation
+<p><img src="images/js.jpg"  width="1000px"></p>

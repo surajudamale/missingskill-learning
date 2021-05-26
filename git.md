@@ -52,44 +52,44 @@
 
 - At the command line, first verify that you have GIT installed.
 - On all operating System
-  ```
+  ```sh
   git --version
   ```
 - The command that sets the auther name and the email address with yor commits.
 
-  ```
+  ```sh
   git config --global user.name "suraj udamale"
   git config --global user.email "surajudamale08@gmail.com"
   ```
 
 - To create an empty Repository type this command.
 
-  ```
+  ```sh
   git init
   ```
 
   - This will create a hidden folder, **_.git_** which is basically needed for Git to work.
 
 - The command that has been used to obtain a repository from Git Repository.
-  ```
+  ```sh
   git clone <HTTPS URL>
   ```
 - Next step is , check what files or folders you want to add to yor Git repository.
-  ```
+  ```sh
   git status
   ```
 - Review the resulting the list of files, you can tell git which of the files you want to add into your Gin repository.
-  ```
+  ```sh
   git add <file/directory name> ...
   ```
   for adding all files use this command.
-  ```
+  ```sh
   git add .
   ```
 - This will 'stage' all your files to be added to Git, preparing them to be commited in your first commit.
 - The commit will record the file permanently in the version history.
 
-  ```
+  ```sh
   git commit -m "First commit"
   ```
 
@@ -98,28 +98,28 @@
 - Then we can see the list of version history fro the current branch, what is gets coomited on which brach
 - In these there is auther name and email with date and time gets specified with the clatest or recorded commits
 
-  ```
+  ```sh
   git log
   ```
 
 - Final Step is now push these file into the Git Repository.
 - These commands sends the commited changes to the master to the remote repository.
 
-  ```
+  ```sh
   git push origin master
   ```
 
   It will ask about username and password for complete the process.
 
 - The command that has been used to fetch and merge the changes on the remote repository to local directory.
-  ```
+  ```sh
   git pull <Repo URL>
   ```
 
 #### ssh-Keygen
 
 - To make our usability smooth we uses a kwy for **_push/pull_** code it doesn't ask for username and password again and again. We create a key in Local Repository.
-  ```
+  ```sh
   ssh-keygen
   cd .ssh
   cat id_rsa.pub
@@ -130,25 +130,25 @@
 
 - Creating and checking out new branches
   - To create new branch while staying on the current branch use :
-    ```
+    ```sh
     gir branch <branch name>
     ```
   - Generally, the branch name must not contain spaces and must be relevent to the project.
   - To switch to an Existing branch.
-    ```
+    ```sh
     git checkout <branch name>
     ```
     Revert back to the tree
   - To create new branch and switch it to :
-    ```
+    ```sh
     git checkout -b <branch name>
     ```
   - To merge the branches use :
-    ```
+    ```sh
     git merge <2nd branch>
     ```
   - To delete the specific branch use :
-    ```
+    ```sh
     git branch -d <branch name>
     ```
 
@@ -165,15 +165,18 @@
 #### How to pull the branches when there is changes in Remote Repository
 
 - First we checkout to one branch we want to merge.
-  ```
+  ```sh
   git checkout<1st branch name>
   ```
 - Then merge the other branch
-  ```
+  ```sh
   git merge <2nd branch name>
   ```
 - Then push the main branch into the Remote Repository
-  ```
+  ```sh
   git push origin <1st Branch name>
   ```
 - Then all the merge branches are merged to the master branch were all project will be done.
+
+#### Git WorkFlow
+<p><img src="images/git.jpg"  width="1000px"></p>
